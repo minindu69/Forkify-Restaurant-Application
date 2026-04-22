@@ -52,7 +52,7 @@ class RecipeView extends View {
         <div class="recipe__details">
           <div class="recipe__info">
             <svg class="recipe__info-icon">
-              <use href="${this._icons}_icon-clock"></use>
+              <use href="${this._icons}#icon-clock"></use>
             </svg>
             <span class="recipe__info-data recipe__info-data--minutes">45</span>
             <span class="recipe__info-text">minutes</span>
