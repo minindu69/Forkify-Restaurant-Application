@@ -1,7 +1,7 @@
-import 'core-js/stable';
 // core-js is a polyfill library.It provides Promises, Array methods etc to old browsers(Missing modern JS features)
-import 'regenerator-runtime/runtime';
+import 'core-js/stable';
 // This add regenerator-runtime globaly as window.regeneratorRuntime(async/await support)
+import 'regenerator-runtime/runtime';
 import * as model from './model.js';
 import {MODEL_CLOSE_SEC} from './config.js'
 import recipeView from './views/recipeView.js';
